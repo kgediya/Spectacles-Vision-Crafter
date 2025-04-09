@@ -20,13 +20,16 @@ It uses a combination of voice control, camera input, AI vision, and 3D generati
 ## ⚙️ Key Features
 
 - **🎨 Drawing-first AI understanding**  
-  Detects and prioritizes sketches and doodles as the main object, ignoring canvases like paper, iPad, notebooks, walls, or drawing tools. 
+  Detects and prioritizes sketches and doodles as the main object, ignoring canvases like paper, iPad, notebooks, walls, or drawing tool through prompt guidance 
 
 - **🗣️ Voice-activated scanning**  
-  Users can trigger the entire vision scan process through **voice commands** via the Voice ML module.
+  Users can trigger the entire vision scan process through **speech recognition** via the Voice ML module.
 
-- **📷 Spectacles live view integration**  
-  Scene capture powered by **Camera Module** and **Instant World Hit Test** for immediate 3D anchoring to wherever you're looking at.
+- **📷 Spectacles Camera access**  
+  Camera frame capture powered by **Camera Module**
+
+- **⚓ Object anchoring**  
+  **Instant World Hit Test** for immediate 3D anchoring to wherever you're looking at
 
 - **🧠 Smart prompt generation using Vision**  
   Frame data is processed using **OpenAI Vision API** to generate a **precise, 3D-ready text prompt for asset generation**.
@@ -34,12 +37,12 @@ It uses a combination of voice control, camera input, AI vision, and 3D generati
 - **🌐 3D asset creation using Meshy**  
   Uses **Meshy API** to convert the text prompt into a textured 3D model, streamed back instantly.
 
-- **✨ Edge-fade overlay trick**  
-  A visual UX trick to **fade out edges** and avoid harsh overlays for a seamless AR experience.
 
 - **🧊 Remote 3D asset injection**  
   Final 3D model is **injected into the scene** using **Remote Media Module**.
 
+- **✨ Edge-fade overlay trick**  
+  A visual UX trick to **fade out edges** and avoid harsh cutoff overlays for a seamless AR experience.
 ---
 
 ## 🧪 Technical Stack
@@ -64,6 +67,28 @@ Inspired by the Indian TV show **Shakalaka Boom Boom**, where anything you drew 
 
 ---
 
+## 🧰 How to Use
+
+1. **Configure API Keys**  
+   Navigate to the `APIConfig` script inside the `LensControllers` SceneObject and replace the placeholder values with your **OpenAI Vision** and **Meshy API** keys.
+
+2. **Enable Scene Understanding**  
+   The experience begins by capturing a frame through Spectacles using **Camera Module**, which is then sent to **OpenAI GPT-4 Vision** for intelligent interpretation and generation of a 3D-friendly text prompt.
+
+3. **Generate 3D Assets**  
+   The generated prompt is passed to the **Meshy API**, which returns a corresponding 3D model. This model is streamed and loaded using the **Remote Media Module**.
+
+4. **Apply Material (Optional)**  
+   Since the Meshy API is currently used in preview mode without texture generation, a **placeholder material** is automatically applied to the imported model.
+
+5. **Anchor the Model in the Real World**  
+   The asset is positioned using **Instant World Hit Test**, allowing immediate placement at the center of the user’s field of view.
+
+6. **Initiate Scan via Voice Command**  
+   The scanning process is triggered using speech recognition. The default keyword is **“boom”**, and both the trigger phrase and hint can be customized within the `VoiceCommandHandler` script.
+
+7. **Enhance Visual UX**  
+   A custom **edge-fade masking** technique is used to soften the periphery and avoid sharp cutoffs in the AR display, ensuring a smoother, more immersive experience.
 
 ---
 
