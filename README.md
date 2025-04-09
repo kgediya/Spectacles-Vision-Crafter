@@ -36,17 +36,17 @@ It uses a combination of voice control, camera input, AI vision, and 3D generati
 
 ## 🧪 Technical Stack
 
-| Feature | Technology Used |
-|--------|-----------------|
-| Voice Trigger | Voice ML Module |
-| Frame Capture | Camera Module |
-| Internet API Calls | Remote Service Module (Fetch) |
-| Frame Analysis | OpenAI GPT-4 Vision API |
-| 3D Model Generation | [Meshy API](https://www.meshy.ai) |
-| Model Injection | Remote Media Module |
-| Anchoring | Instant World Hit Test |
-| Overlay UX | Edge Fade Masking |
-| Platform | Lens Studio + Spectacles |
+| Feature              | Technology Used                                                                 |
+|----------------------|----------------------------------------------------------------------------------|
+| Voice Trigger         | [Voice ML Module](https://developers.snap.com/lens-studio/features/voice-ml/speech-recognition) |
+| Frame Capture         | [Camera Module](https://developers.snap.com/spectacles/about-spectacles-features/apis/camera-module)  |
+| Internet API Calls    | [Remote Service Module (Fetch)](https://developers.snap.com/spectacles/about-spectacles-features/apis/internet-access) |
+| Frame Analysis        | [OpenAI GPT-4 Vision API](https://platform.openai.com/docs/guides/images?api-mode=responses)      |
+| 3D Model Generation   | [Meshy API](https://docs.meshy.ai/api/text-to-3d)                                               |
+| Model Injection       | [Remote Media Module](https://developers.snap.com/lens-studio/api/lens-scripting/classes/Built-In.RemoteMediaModule.html#loadresourceasgltfasset) |
+| Anchoring             | [Instant World Hit Test](https://developers.snap.com/lens-studio/features/ar-tracking/world/world-templates/instant-world-hit-test) |
+| Platform              | [Lens Studio](https://ar.snap.com/) + [Spectacles](https://www.spectacles.com/?lang=en-US) |
+
 
 ---
 

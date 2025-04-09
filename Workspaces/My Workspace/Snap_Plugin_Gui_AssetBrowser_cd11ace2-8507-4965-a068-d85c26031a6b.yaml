@@ -1,32 +1,31 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 45
+    size: 46
     values:
-      - Iridescence Material
-      - Iridescence Material/.hidden
-      - Iridescence Material/.hidden/Iridescence.ss_graph
-      - Iridescence Material/Iridescence.mat
-      - Iridescence Material/Textures
-      - Iridescence Material/Textures/iridescence_combined.png
       - Materials
       - Materials/Image 2.mat
       - Materials/Image 3.mat
       - Materials/Image.mat
+      - Materials/Iridescence Material
+      - Materials/Iridescence Material/.hidden
+      - Materials/Iridescence Material/.hidden/Iridescence.ss_graph
+      - Materials/Iridescence Material/Iridescence.mat
+      - Materials/Iridescence Material/Textures
+      - Materials/Iridescence Material/Textures/iridescence_combined.png
       - Materials/flat.ss_graph
       - Modules
+      - Modules/Camera Module.cameraModule
       - Modules/Remote Media Module.remoteMediaModule
       - Modules/Remote Service Module.remoteServiceModule
       - Modules/VoiceML Module.voiceMLModule
-      - Opacity Textures Collection
-      - Opacity Textures Collection/Opacity Textures Collection Resources/Square Faded Mask.jpg
       - Other Resources
-      - Other Resources/Camera Module.cameraModule
       - Other Resources/Depth Texture.depthTexture
       - Other Resources/Loading Gif Texture.gif
       - Other Resources/PlaceholderPrefab.prefab
       - Render Targets
       - Render Targets/Overlay Render Target.renderTarget
+      - Scripts
       - Scripts/Behavior.js
       - Scripts/Instant World Hit Test.lsc
       - Scripts/Tween.js
@@ -39,6 +38,8 @@ CollapsedEntities:
       - Textures/Circle Faded Mask.pvr
       - Textures/Default Image.png
       - Textures/Diffuse.jpeg
+      - Textures/Opacity Textures Collection
+      - Textures/Opacity Textures Collection/Opacity Textures Collection Resources/Square Faded Mask.jpg
       - Textures/Specular.jpeg
       - TweenManager
       - TweenManager/Tween
