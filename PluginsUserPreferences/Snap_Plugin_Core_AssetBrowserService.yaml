@@ -1,0 +1,6 @@
+ExternalSources:
+  type: "std::map<class Es::Uuid,class Es::Path,struct std::less<class Es::Uuid>,class std::allocator<struct std::pair<class Es::Uuid const ,class Es::Path> > >"
+  value:
+    - 73e25e44-1195-4ba4-8e6e-e5bca64e4591: "D:/Workspace/Lens Studio/Assets & References/Faded Egde Mask.jpg"
+    - e503c189-faf9-483e-8b41-48915054872c: "D:/Workspace/Lens Studio/Spectacles/MeshyTest/459846dc5aa1243f19e9e55fe8a6ed06.gif"
+  options: 4

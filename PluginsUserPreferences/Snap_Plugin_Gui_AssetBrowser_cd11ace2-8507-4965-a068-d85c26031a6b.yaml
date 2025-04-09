@@ -1,0 +1,51 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 45
+    values:
+      - Iridescence Material
+      - Iridescence Material/.hidden
+      - Iridescence Material/.hidden/Iridescence.ss_graph
+      - Iridescence Material/Iridescence.mat
+      - Iridescence Material/Textures
+      - Iridescence Material/Textures/iridescence_combined.png
+      - Materials
+      - Materials/Image 2.mat
+      - Materials/Image 3.mat
+      - Materials/Image.mat
+      - Materials/flat.ss_graph
+      - Modules
+      - Modules/Remote Media Module.remoteMediaModule
+      - Modules/Remote Service Module.remoteServiceModule
+      - Modules/VoiceML Module.voiceMLModule
+      - Opacity Textures Collection
+      - Opacity Textures Collection/Opacity Textures Collection Resources/Square Faded Mask.jpg
+      - Other Resources
+      - Other Resources/Camera Module.cameraModule
+      - Other Resources/Depth Texture.depthTexture
+      - Other Resources/Loading Gif Texture.gif
+      - Other Resources/PlaceholderPrefab.prefab
+      - Render Targets
+      - Render Targets/Overlay Render Target.renderTarget
+      - Scripts/Behavior.js
+      - Scripts/Instant World Hit Test.lsc
+      - Scripts/Tween.js
+      - Scripts/apiConfig.js
+      - Scripts/imageToPromptHandler.js
+      - Scripts/instanceLogicHandler.js
+      - Scripts/meshyTextTo3DHandler.js
+      - Scripts/voiceCommandHandler.js
+      - Textures
+      - Textures/Circle Faded Mask.pvr
+      - Textures/Default Image.png
+      - Textures/Diffuse.jpeg
+      - Textures/Specular.jpeg
+      - TweenManager
+      - TweenManager/Tween
+      - TweenManager/Tween/TweenManager.js
+      - TweenManager/Tween/TweenTypes
+      - TweenManager/Tween/TweenTypes/TweenAlpha.js
+      - TweenManager/Tween/TweenTypes/TweenChain.js
+      - TweenManager/Tween/TweenTypes/TweenTransform.js
+      - TweenManager/TweenManager.prefab
+  options: 4

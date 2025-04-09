@@ -1,0 +1,51 @@
+- !<AssetImportMetadata/c4ddcffb-383d-434e-a16c-3db3dfe13def>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 2e5a5991-71ab-459a-84bc-108cd40a576a
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 2e5a5991-71ab-459a-84bc-108cd40a576a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> f4cb1241-66d8-4f41-a104-bdee1135f7cc
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/f4cb1241-66d8-4f41-a104-bdee1135f7cc>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 3fff1952-b906-4601-a5ee-6cd3dfade3e9
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    cameraModule: false
+    iht: false
+    placeholderPrefab: false
+    previewImage: false
+    rsm: false
+    statusText: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - cameraModule: !<reference.CameraModule> 00000000-0000-0000-0000-000000000000
+      previewImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      debugText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      rsm: !<reference.RemoteServiceModule> 00000000-0000-0000-0000-000000000000
+      openAIKey: ""
+      worldQuery: !<reference.WorldQueryModule> 00000000-0000-0000-0000-000000000000
+      iht: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      boxPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      statusText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      placeholderPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

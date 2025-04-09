@@ -1,0 +1,64 @@
+backCameraMultimedia:
+  type: string
+  value: PreviewResources.bundle/Video/Idle/Idle Person 2.mp4
+  options: 4
+cameraType:
+  type: int
+  value: 0
+  options: 4
+deviceType:
+  type: string
+  value: Unknown
+  options: 4
+frameRate:
+  type: int
+  value: 30
+  options: 4
+frontCameraMultimedia:
+  type: string
+  value: "D:/Workspace/Lens Studio/Spectacles/MeshyTest/a-blank-a4-size-magic-paper-with-magical_-p5iZso-SSeKVNcQA1d9XA_UnBqAyviQ_2UAj5bljVvpg.png"
+  options: 4
+fullscreenSpectaclesSimulation:
+  type: bool
+  value: true
+  options: 4
+lastPosition:
+  type: vec3
+  value: {x: 0.000000, y: 0.000000, z: 0.000000}
+  options: 4
+lastRotation:
+  type: vec3
+  value: {x: 0.000000, y: 0.000000, z: 0.000000}
+  options: 4
+mirrorHorizontally:
+  type: bool
+  value: false
+  options: 4
+previewSource:
+  type: string
+  value: "E:/Program Files/Snap Inc/Lens Studio572/InteractiveResources.bundle/Scenes/Sunlit Room"
+  options: 4
+previewType:
+  type: string
+  value: Interactive
+  options: 4
+recordInput:
+  type: bool
+  value: false
+  options: 4
+recordTrackingData:
+  type: bool
+  value: false
+  options: 4
+resolutionScale:
+  type: float
+  value: 1.000000
+  options: 4
+simulatedDevice:
+  type: string
+  value: Spectacles (2024)
+  options: 4
+stereoEye:
+  type: string
+  value: Center
+  options: 4

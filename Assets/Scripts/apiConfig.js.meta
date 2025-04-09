@@ -1,0 +1,39 @@
+- !<AssetImportMetadata/6c537f66-65b3-4491-b384-0b62d19016f8>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> e832d5e0-f307-421d-81d2-c736396124b0
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> e832d5e0-f307-421d-81d2-c736396124b0
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> ee58a211-cc02-4790-b2d6-9d0b209d1fd0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/ee58a211-cc02-4790-b2d6-9d0b209d1fd0>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 625bb140-29ed-440e-991a-4eae03294b5f
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    meshyApiKey: false
+    openaiApiKey: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - meshyApiKey: ""
+      openaiApiKey: ""
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/4735d904-87c3-4149-ba57-83ecaa913735>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 6f770b80-0802-436a-a71d-448de7e9523c
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 6f770b80-0802-436a-a71d-448de7e9523c
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> aadd3b12-446a-4256-a80e-67f974ae5a93
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/aadd3b12-446a-4256-a80e-67f974ae5a93>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: c91f2451-3677-4f64-959e-5a4fa61f6bee
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    hintPhrase: false
+    keyword: false
+    printDebug: false
+    statusText: false
+    voiceML: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - voiceML: !<reference.VoiceMLModule> 00000000-0000-0000-0000-000000000000
+      debugText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      statusText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      printDebug: true
+      keyword: ""
+      keywor: ""
+      hintPhrase: Shakalaka Boom Boom
+  ScriptTypes:
+    -
+      {}
