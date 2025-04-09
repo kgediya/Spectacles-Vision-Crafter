@@ -3,9 +3,17 @@ Turn your sketches into stunning 3D magic — inspired by Shakalaka Boom Boom.
 
 ## 📸 What is Vision Crafter?
 
-**Vision Crafter** is an experimental SnapAR experience that lets you point your **Snapchat Spectacles** at a sketch or doodle, and watch it come alive as a 3D model — just like the magical pencil from *Shakalaka Boom Boom*.
+**Vision Crafter** is an innovative & experimental SnapAR experience that lets you point your **Snapchat Spectacles** at a sketch or doodle, and watch it come alive as a 3D model — just like the magical pencil from *Shakalaka Boom Boom*.
 
 It uses a combination of voice control, camera input, AI vision, and 3D generation to convert **drawings into 3D assets** in real-time.
+
+---
+
+## 🎬 Demo Preview
+
+| Drawing Input | Vision Processing | Final Output 1 | Final Output 2 |
+|---------------|--------------------|----------------|----------------|
+| ![](./DemoPreview/drawing.gif) | ![](./DemoPreview/progress.gif) | ![](./DemoPreview/ready.gif) | ![](./DemoPreview/ready2.gif) |
 
 ---
 
