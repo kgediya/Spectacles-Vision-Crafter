@@ -11,9 +11,9 @@ It uses a combination of voice control, camera input, AI vision, and 3D generati
 
 ## 🎬 Demo Preview
 
-| Drawing Input | Vision Processing | Final Output 1 | Final Output 2 |
-|---------------|--------------------|----------------|----------------|
-| ![](./DemoPreview/drawing.gif) | ![](./DemoPreview/progress.gif) | ![](./DemoPreview/ready.gif) | ![](./DemoPreview/ready2.gif) |
+| Drawing Input | Vision Processing | 3D Processing | Final Output | Example Output |
+|---------------|------------------|--------------------|----------------|----------------|
+| ![](./DemoPreview/drawing.gif) | ![](./DemoPreview/imagetoprompt.gif) | ![](./DemoPreview/progress.gif) | ![](./DemoPreview/ready2.gif) | ![](./DemoPreview/ready.gif) |
 
 ---
 
